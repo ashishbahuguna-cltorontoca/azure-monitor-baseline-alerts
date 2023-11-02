@@ -56,7 +56,7 @@
     "policyAssignmentParametersServiceHealth": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "itoperationsteam@cltoronto.ca" , "ashish.bahuguna@cltoronto.ca"
+          "value": "ashish.bahuguna@cltoronto.ca"
         },
         "ResHlthUnhealthyAlertState": {
           "value": "true"
