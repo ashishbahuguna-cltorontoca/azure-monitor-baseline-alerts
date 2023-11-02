@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "7d80494c-ffd5-4c3a-8d27-8baebb611411"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "7d80494c-ffd5-4c3a-8d27-8baebb611411"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "7d80494c-ffd5-4c3a-8d27-8baebb611411"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "7d80494c-ffd5-4c3a-8d27-8baebb611411"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "7d80494c-ffd5-4c3a-8d27-8baebb611411"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "7d80494c-ffd5-4c3a-8d27-8baebb611411p"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -41,22 +41,22 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "rg-amba-monitoring-001"
+          "value": "rg-clt-monitor-001"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
-            "Project": "amba-monitoring"
+            "Project": "clt-monitoring"
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "canadacentral"
         }
       }
     },
     "policyAssignmentParametersServiceHealth": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "itoperationsteam@cltoronto.ca" , "ashish.bahuguna@cltoronto.ca"
         },
         "ResHlthUnhealthyAlertState": {
           "value": "true"
